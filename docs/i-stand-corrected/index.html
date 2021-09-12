@@ -9,7 +9,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=ee4dc2a0d8" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=b83ed899e4" />
 
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href="https://glenmontlights.github.io/i-stand-corrected/" />
@@ -21,9 +21,9 @@
     <meta property="og:title" content="I Stand Corrected" />
     <meta property="og:description" content="In which we discuss the fact that nested groups do, indeed, have some interesting limitations" />
     <meta property="og:url" content="https://glenmontlights.github.io/i-stand-corrected/" />
-    <meta property="og:image" content="https://glenmontlights.github.io/content/images/2021/01/Screenshot-2021-01-02-095256-1.jpg" />
+    <meta property="og:image" content="https://glenmontlights.github.io/content/images/2021/09/Screenshot-2021-01-02-095256-1.jpg" />
     <meta property="article:published_time" content="2021-01-23T23:18:00.000Z" />
-    <meta property="article:modified_time" content="2021-01-23T23:18:00.000Z" />
+    <meta property="article:modified_time" content="2021-09-12T18:34:27.000Z" />
     <meta property="article:tag" content="Layout" />
     <meta property="article:tag" content="Christmas Lights" />
     <meta property="article:tag" content="model" />
@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="I Stand Corrected" />
     <meta name="twitter:description" content="In which we discuss the fact that nested groups do, indeed, have some interesting limitations" />
     <meta name="twitter:url" content="https://glenmontlights.github.io/i-stand-corrected/" />
-    <meta name="twitter:image" content="https://glenmontlights.github.io/content/images/2021/01/Screenshot-2021-01-02-095256-1.jpg" />
+    <meta name="twitter:image" content="https://glenmontlights.github.io/content/images/2021/09/Screenshot-2021-01-02-095256-1.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Josh Wickham" />
     <meta name="twitter:label2" content="Filed under" />
@@ -69,10 +69,10 @@
     "headline": "I Stand Corrected",
     "url": "https://glenmontlights.github.io/i-stand-corrected/",
     "datePublished": "2021-01-23T23:18:00.000Z",
-    "dateModified": "2021-01-23T23:18:00.000Z",
+    "dateModified": "2021-09-12T18:34:27.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "https://glenmontlights.github.io/content/images/2021/01/Screenshot-2021-01-02-095256-1.jpg",
+        "url": "https://glenmontlights.github.io/content/images/2021/09/Screenshot-2021-01-02-095256-1.jpg",
         "width": 542,
         "height": 287
     },
@@ -85,7 +85,7 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 3.40" />
+    <meta name="generator" content="Ghost 3.41" />
     <link rel="alternate" type="application/rss+xml" title="Glenmont Lights" href="https://glenmontlights.github.io/rss/" />
 
 </head>
@@ -179,21 +179,21 @@
 
             <figure class="post-full-image">
                 <img
-                    srcset="/content/images/size/w300/2021/01/Screenshot-2021-01-02-095256-1.jpg 300w,
-                            /content/images/size/w600/2021/01/Screenshot-2021-01-02-095256-1.jpg 600w,
-                            /content/images/size/w1000/2021/01/Screenshot-2021-01-02-095256-1.jpg 1000w,
-                            /content/images/size/w2000/2021/01/Screenshot-2021-01-02-095256-1.jpg 2000w"
+                    srcset="/content/images/size/w300/2021/09/Screenshot-2021-01-02-095256-1.jpg 300w,
+                            /content/images/size/w600/2021/09/Screenshot-2021-01-02-095256-1.jpg 600w,
+                            /content/images/size/w1000/2021/09/Screenshot-2021-01-02-095256-1.jpg 1000w,
+                            /content/images/size/w2000/2021/09/Screenshot-2021-01-02-095256-1.jpg 2000w"
                     sizes="(max-width: 800px) 400px,
                         (max-width: 1170px) 1170px,
                             2000px"
-                    src="/content/images/size/w2000/2021/01/Screenshot-2021-01-02-095256-1.jpg"
+                    src="/content/images/size/w2000/2021/09/Screenshot-2021-01-02-095256-1.jpg"
                     alt="I Stand Corrected"
                 />
             </figure>
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p>In my post about <a href="https://glenmontlights.github.io/model-grouping/">model grouping</a>, I mentioned that one can have nested groups of models. One might want to do that if there are several groups of one type of model, then another group which has all of that model. I found an issue with how this works and am going to put a big caveat on using nested groups.</p><p>For example, on my house, I'm planning to have five stars on my garage and five stars on my house. I would like to be have the option to control them separate to each other, so I have "Stars - Garage" and "Stars - House". However, I also want to control all the stars together, so I want "Stars - All"; that way any time I add a star, I just add it to one group (say, "Stars - House") and anything group that has that group nested (say, "Stars - All" or "House - All") will automatically know about that new model.</p><p>However, this has a limitation during sequencing. When you apply effects, there is a "Render Style" option. In this, the default is to use all of the models in the group as a broad canvas onto which to apply the effect.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/01/grouped.gif" class="kg-image" alt><figcaption>Effect applied to a group, Default rendering</figcaption></figure><p>However, you also have the option to tell it to apply the effect to each of the models under the group (one such value is "Per Model Default"). This is useful when you want to have, say, the same starburst effect on all the stars without having all the stars on the timeline individually and applying the effect to all of them. I touched on the differences in the model grouping post. The end result is the same as if you'd applied the effects individually, but the same exact effect will be used and kept in sync.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/01/singles.gif" class="kg-image" alt><figcaption>Effect applied to a group, Per Model Default rendering</figcaption></figure><p>The limitation is this: if you have nested groups, the groups which are nested will be rendered as a group instead of the individual models. Here's an example using my "Stars - All" group (hey now, I'm an All Star...). For illustration purposes, I have both individual models and a nested group within this group so you can see the differences.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/01/high-level-group.gif" class="kg-image" alt><figcaption>Effect applied to a group with individual models and a nested group, Default rendering</figcaption></figure><p>This is using the Default rendering on the top-level group. As you can see, the explosion goes out from the middle of the group and passes through all the stars. Let's see what happens when we change the Render Style to Per Model Default.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/01/per-model-default.gif" class="kg-image" alt><figcaption>Effect applied to a group with individual models and a nested group, Per Model Default rendering</figcaption></figure><p>That's interesting, right? As you can see, each of the stars on the left bursts within the star itself, while on the right, the burst renders across all five stars. That's because the stars on the left are added to the group individually, whereas the stars on the right are added to the group within a nested group. </p><p>So we come to the crux: I am going to go back and, in <em>many</em> cases, change my groups to hold only models. In the long run, it is going to be a bit more maintenance as I add new models, but hopefully that'll be only like once or twice a year. However, with things on which I intend to never use Per Model Default rendering (e.g. my EVERYTHING group), I'll just keep with the nested groups, because damn are they convenient!</p>
+                    <p>In my post about <a href="https://glenmontlights.github.io/model-grouping/">model grouping</a>, I mentioned that one can have nested groups of models. One might want to do that if there are several groups of one type of model, then another group which has all of that model. I found an issue with how this works and am going to put a big caveat on using nested groups.</p><p>For example, on my house, I'm planning to have five stars on my garage and five stars on my house. I would like to be have the option to control them separate to each other, so I have "Stars - Garage" and "Stars - House". However, I also want to control all the stars together, so I want "Stars - All"; that way any time I add a star, I just add it to one group (say, "Stars - House") and anything group that has that group nested (say, "Stars - All" or "House - All") will automatically know about that new model.</p><p>However, this has a limitation during sequencing. When you apply effects, there is a "Render Style" option. In this, the default is to use all of the models in the group as a broad canvas onto which to apply the effect.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/09/grouped-2.gif" class="kg-image" alt><figcaption>Effect applied to a group, Default rendering</figcaption></figure><p>However, you also have the option to tell it to apply the effect to each of the models under the group (one such value is "Per Model Default"). This is useful when you want to have, say, the same starburst effect on all the stars without having all the stars on the timeline individually and applying the effect to all of them. I touched on the differences in the model grouping post. The end result is the same as if you'd applied the effects individually, but the same exact effect will be used and kept in sync.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/09/singles-2.gif" class="kg-image" alt><figcaption>Effect applied to a group, Per Model Default rendering</figcaption></figure><p>The limitation is this: if you have nested groups, the groups which are nested will be rendered as a group instead of the individual models. Here's an example using my "Stars - All" group (hey now, I'm an All Star...). For illustration purposes, I have both individual models and a nested group within this group so you can see the differences.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/09/high-level-group-1.gif" class="kg-image" alt><figcaption>Effect applied to a group with individual models and a nested group, Default rendering</figcaption></figure><p>This is using the Default rendering on the top-level group. As you can see, the explosion goes out from the middle of the group and passes through all the stars. Let's see what happens when we change the Render Style to Per Model Default.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://glenmontlights.github.io/content/images/2021/09/per-model-default-1.gif" class="kg-image" alt><figcaption>Effect applied to a group with individual models and a nested group, Per Model Default rendering</figcaption></figure><p>That's interesting, right? As you can see, each of the stars on the left bursts within the star itself, while on the right, the burst renders across all five stars. That's because the stars on the left are added to the group individually, whereas the stars on the right are added to the group within a nested group. </p><p>So we come to the crux: I am going to go back and, in <em>many</em> cases, change my groups to hold only models. In the long run, it is going to be a bit more maintenance as I add new models, but hopefully that'll be only like once or twice a year. However, with things on which I intend to never use Per Model Default rendering (e.g. my EVERYTHING group), I'll just keep with the nested groups, because damn are they convenient!</p>
                 </div>
             </section>
 
@@ -233,13 +233,13 @@
 
     <a class="post-card-image-link" href="/dipping-your-toe-in-sequencing/">
         <img class="post-card-image"
-            srcset="/content/images/size/w300/2021/01/index.png 300w,
-                    /content/images/size/w600/2021/01/index.png 600w,
-                    /content/images/size/w1000/2021/01/index.png 1000w,
-                    /content/images/size/w2000/2021/01/index.png 2000w"
+            srcset="/content/images/size/w300/2021/09/index.png 300w,
+                    /content/images/size/w600/2021/09/index.png 600w,
+                    /content/images/size/w1000/2021/09/index.png 1000w,
+                    /content/images/size/w2000/2021/09/index.png 2000w"
             sizes="(max-width: 1000px) 400px, 700px"
             loading="lazy"
-            src="/content/images/size/w600/2021/01/index.png"
+            src="/content/images/size/w600/2021/09/index.png"
             alt="Starting a New Sequence"
         />
     </a>
@@ -308,7 +308,7 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous">
     </script>
-    <script src="/assets/built/casper.js?v=ee4dc2a0d8"></script>
+    <script src="/assets/built/casper.js?v=b83ed899e4"></script>
 
     <script>
         // Parse the URL parameter
