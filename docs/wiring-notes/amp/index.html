@@ -18,8 +18,8 @@
     <meta property="og:image" content="https://glenmontlights.github.io/content/images/2021/09/IMG_6077.jpg" />
     <meta property="article:published_time" content="2021-09-12T20:04:45.000Z" />
     <meta property="article:modified_time" content="2021-09-12T20:04:45.000Z" />
-    <meta property="article:tag" content="Christmas Lights" />
-    <meta property="article:tag" content="pixels" />
+    <meta property="article:tag" content="Pixels" />
+    <meta property="article:tag" content="Wiring" />
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Wiring Notes and Design Prep" />
@@ -29,7 +29,7 @@
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Josh Wickham" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Christmas Lights, pixels" />
+    <meta name="twitter:data2" content="Pixels, Wiring" />
     <meta property="og:image:width" content="2000" />
     <meta property="og:image:height" content="1500" />
     
@@ -68,7 +68,7 @@
         "width": 2000,
         "height": 1500
     },
-    "keywords": "Christmas Lights, pixels",
+    "keywords": "Pixels, Wiring",
     "description": "In which I describe why writing down wiring details is helpful",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -77,7 +77,7 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 3.41" />
+    <meta name="generator" content="Ghost 4.13" />
     <link rel="alternate" type="application/rss+xml" title="Glenmont Lights" href="https://glenmontlights.github.io/rss/" />
 
     <style amp-custom>
@@ -202,7 +202,7 @@
     }
 
     a {
-        color: #1292EE;
+        color: var(--ghost-accent-color, #1292EE);
         text-decoration-skip-ink: auto;
     }
 
@@ -350,7 +350,7 @@
         top: 0;
         bottom: 0;
         width: 0.3rem;
-        background: #000;
+        background: var(--ghost-accent-color, #1292EE);
     }
 
     .post-content :not(.kg-card):not([id]) + .kg-card {
@@ -381,7 +381,7 @@
         font-weight: 400;
         font-size: 0.9em;
         line-height: 1em;
-        color: #dc0050;
+        color: #15171a;
         background: #f0f6f9;
         border-radius: 0.25em;
     }
@@ -637,6 +637,8 @@
             font-size: 1.7rem;
         }
     }
+
+    :root {--ghost-accent-color: #15171A;}
     </style>
 
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -668,7 +670,7 @@
             </figure>
             <section class="post-content">
 
-                <p>One thing I've found very helpful when building props is to write down various notes about wiring. Sure, there are going to be some rules or guidelines you should follow (e.g. DC+ goes to DC+, how to manage power injection, etc), but what wire colors are, what connectors you use, whether the male plug is on the incoming side of the prop or on the outgoing, etc. are going to vary based upon your preferences, the types of components you buy, etc.</p><p>To add to the difficulty, sometimes this stuff is not very well documented. For example, for the pixel strands I bought there is no documentation as to whether the signal goes from the male plug to the female plug or vice versa; you have to figure it out on your own.</p><figure class="kg-card kg-image-card kg-card-hascaption"><amp-img src="https://glenmontlights.github.io/content/images/2021/09/IMG_6076-1.jpg" class="kg-image" alt srcset="https://glenmontlights.github.io/content/images/size/w600/2021/09/IMG_6076-1.jpg 600w, https://glenmontlights.github.io/content/images/size/w1000/2021/09/IMG_6076-1.jpg 1000w, https://glenmontlights.github.io/content/images/size/w1600/2021/09/IMG_6076-1.jpg 1600w, https://glenmontlights.github.io/content/images/size/w2400/2021/09/IMG_6076-1.jpg 2400w" width="2000" height="2667" layout="responsive"></amp-img><figcaption>What is all this?</figcaption></figure><p>Thus, writing these things down is incredibly helpful. By doing some preliminary thinking and design work, you can simplify the process of wiring and reduce the possibility of bad wiring quite a lot.</p><p>You won't have to go back and figure out what you've already done in order to try and match it. It's annoying to have to get a fully wired and functional prop out of storage to figure out which direction the current is flowing, which direction the plugs should go, etc. Further, if you always use the same practice for wiring things up, your system is more flexible and open to changes without having to rebuild connectors, etc.</p><p>At a minimum, these are the things I would write down:</p><ul><li>Which wire colors carry what type of current. Do this for pixel strands, other prewired props which need to be connected, signal cables running from the controllers to the props, and power injection.</li><li>What direction connectors face. I find it easiest to think of this as "incoming" and "outgoing", but it's also commonly referred to as "upstream" and "downstream" (controller/power source is always "outgoing" or "upstream"). As an example, if you buy the <a href="https://www.aliexpress.com/item/32739097740.html?">Ray Wu connectors</a>, it's common to wire the female plug (holes instead of prongs) to the <a href="https://www.pixelcontroller.com/store/products/57-5mm-connectors.html">controller connectors</a> which plug into the board. The direction doesn't matter as long as it's consistent.</li><li>Which wires go to which connector poles. This is useful mainly for power injection wires, but it really depends on how in-depth you get with your wiring.</li></ul><p>That's seems like very little, but do each of these for each of the wire types and it starts getting to be a bit of info. However, I promise that you will appreciate having this when you go months between building props and have completely forgotten which way everything goes.</p><p>For me, it ended up looking something like this:</p><figure class="kg-card kg-image-card kg-card-hascaption"><amp-img src="https://glenmontlights.github.io/content/images/2021/09/IMG_6078.jpg" class="kg-image" alt srcset="https://glenmontlights.github.io/content/images/size/w600/2021/09/IMG_6078.jpg 600w, https://glenmontlights.github.io/content/images/size/w1000/2021/09/IMG_6078.jpg 1000w, https://glenmontlights.github.io/content/images/size/w1600/2021/09/IMG_6078.jpg 1600w, https://glenmontlights.github.io/content/images/size/w2400/2021/09/IMG_6078.jpg 2400w" width="2000" height="1500" layout="responsive"></amp-img><figcaption>Don't worry if you can't read my writing; I'm the only one who need to be able to 😂</figcaption></figure><p>As for that last bit about not connecting DC+ to signal cables? I'll get into that soon when I cover power injection.</p>
+                <p>One thing I've found very helpful when building props is to write down various notes about wiring. Sure, there are going to be some rules or guidelines you should follow (e.g. DC+ goes to DC+, how to manage power injection, etc), but what wire colors are, what connectors you use, whether the male plug is on the incoming side of the prop or on the outgoing, etc. are going to vary based upon your preferences, the types of components you buy, etc.</p><p>To add to the difficulty, sometimes this stuff is not very well documented. For example, for the pixel strands I bought there is no documentation as to whether the signal goes from the male plug to the female plug or vice versa; you have to figure it out on your own.</p><figure class="kg-card kg-image-card kg-card-hascaption"><amp-img src="https://glenmontlights.github.io/content/images/2021/09/IMG_6076-1.jpg" class="kg-image" alt width="2000" height="2667" srcset="https://glenmontlights.github.io/content/images/size/w600/2021/09/IMG_6076-1.jpg 600w, https://glenmontlights.github.io/content/images/size/w1000/2021/09/IMG_6076-1.jpg 1000w, https://glenmontlights.github.io/content/images/size/w1600/2021/09/IMG_6076-1.jpg 1600w, https://glenmontlights.github.io/content/images/size/w2400/2021/09/IMG_6076-1.jpg 2400w" layout="responsive"></amp-img><figcaption>What is all this?</figcaption></figure><p>Thus, writing these things down is incredibly helpful. By doing some preliminary thinking and design work, you can simplify the process of wiring and reduce the possibility of bad wiring quite a lot.</p><p>You won't have to go back and figure out what you've already done in order to try and match it. It's annoying to have to get a fully wired and functional prop out of storage to figure out which direction the current is flowing, which direction the plugs should go, etc. Further, if you always use the same practice for wiring things up, your system is more flexible and open to changes without having to rebuild connectors, etc.</p><p>At a minimum, these are the things I would write down:</p><ul><li>Which wire colors carry what type of current. Do this for pixel strands, other prewired props which need to be connected, signal cables running from the controllers to the props, and power injection.</li><li>What direction connectors face. I find it easiest to think of this as "incoming" and "outgoing", but it's also commonly referred to as "upstream" and "downstream" (controller/power source is always "outgoing" or "upstream"). As an example, if you buy the <a href="https://www.aliexpress.com/item/32739097740.html?">Ray Wu connectors</a>, it's common to wire the female plug (holes instead of prongs) to the <a href="https://www.pixelcontroller.com/store/products/57-5mm-connectors.html">controller connectors</a> which plug into the board. The direction doesn't matter as long as it's consistent.</li><li>Which wires go to which connector poles. This is useful mainly for power injection wires, but it really depends on how in-depth you get with your wiring.</li></ul><p>That's seems like very little, but do each of these for each of the wire types and it starts getting to be a bit of info. However, I promise that you will appreciate having this when you go months between building props and have completely forgotten which way everything goes.</p><p>For me, it ended up looking something like this:</p><figure class="kg-card kg-image-card kg-card-hascaption"><amp-img src="https://glenmontlights.github.io/content/images/2021/09/IMG_6078.jpg" class="kg-image" alt width="2000" height="1500" srcset="https://glenmontlights.github.io/content/images/size/w600/2021/09/IMG_6078.jpg 600w, https://glenmontlights.github.io/content/images/size/w1000/2021/09/IMG_6078.jpg 1000w, https://glenmontlights.github.io/content/images/size/w1600/2021/09/IMG_6078.jpg 1600w, https://glenmontlights.github.io/content/images/size/w2400/2021/09/IMG_6078.jpg 2400w" layout="responsive"></amp-img><figcaption>Don't worry if you can't read my writing; I'm the only one who need to be able to 😂</figcaption></figure><p>As for that last bit about not connecting DC+ to signal cables? I'll get into that soon when I cover power injection.</p>
 
             </section>
 
