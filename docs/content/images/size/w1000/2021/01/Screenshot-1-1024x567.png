@@ -66,6 +66,94 @@
                     
 <article class="post-card post ">
 
+    <a class="post-card-image-link" href="/sia-candy-cane-lane/">
+        <img class="post-card-image"
+            srcset="/content/images/size/w300/2021/12/Sia---Candy-Cane-Lane.jpg 300w,
+                    /content/images/size/w600/2021/12/Sia---Candy-Cane-Lane.jpg 600w,
+                    /content/images/size/w1000/2021/12/Sia---Candy-Cane-Lane.jpg 1000w,
+                    /content/images/size/w2000/2021/12/Sia---Candy-Cane-Lane.jpg 2000w"
+            sizes="(max-width: 1000px) 400px, 800px"
+            src="/content/images/size/w600/2021/12/Sia---Candy-Cane-Lane.jpg"
+            alt="Sia - Candy Cane Lane"
+            loading="lazy"
+        />
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/sia-candy-cane-lane/">
+            <header class="post-card-header">
+                <h2 class="post-card-title">Sia - Candy Cane Lane</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>In which we hear about a nice lane of candy canes</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+            <ul class="author-list">
+                <li class="author-list-item">
+                    <a href="/author/josh/" class="static-avatar">
+                        <img class="author-profile-image" src="//www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x" alt="Josh Wickham" />
+                    </a>
+                </li>
+            </ul>
+            <div class="post-card-byline-content">
+                <span><a href="/author/josh/">Josh Wickham</a></span>
+                <span class="post-card-byline-date"><time datetime="2021-12-05">Dec 5, 2021</time> <span class="bull">&bull;</span> 1 min read</span>
+            </div>
+        </footer>
+
+    </div>
+
+</article>
+                    
+<article class="post-card post ">
+
+    <a class="post-card-image-link" href="/leo-moracchioli-all-i-want-for-christmas-is-you-metal-cover/">
+        <img class="post-card-image"
+            srcset="/content/images/size/w300/2021/12/Leo-Moracchioli---All-I-Want-For-Christmas-is-You--metal-cover--screengrab.jpg 300w,
+                    /content/images/size/w600/2021/12/Leo-Moracchioli---All-I-Want-For-Christmas-is-You--metal-cover--screengrab.jpg 600w,
+                    /content/images/size/w1000/2021/12/Leo-Moracchioli---All-I-Want-For-Christmas-is-You--metal-cover--screengrab.jpg 1000w,
+                    /content/images/size/w2000/2021/12/Leo-Moracchioli---All-I-Want-For-Christmas-is-You--metal-cover--screengrab.jpg 2000w"
+            sizes="(max-width: 1000px) 400px, 800px"
+            src="/content/images/size/w600/2021/12/Leo-Moracchioli---All-I-Want-For-Christmas-is-You--metal-cover--screengrab.jpg"
+            alt="Leo Moracchioli - All I Want for Christmas is You (metal cover)"
+            loading="lazy"
+        />
+    </a>
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/leo-moracchioli-all-i-want-for-christmas-is-you-metal-cover/">
+            <header class="post-card-header">
+                <h2 class="post-card-title">Leo Moracchioli - All I Want for Christmas is You (metal cover)</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>In which we witness a metal resuscitation of a played-to-death Mariah Carey song</p>
+            </section>
+        </a>
+
+        <footer class="post-card-meta">
+            <ul class="author-list">
+                <li class="author-list-item">
+                    <a href="/author/josh/" class="static-avatar">
+                        <img class="author-profile-image" src="//www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x" alt="Josh Wickham" />
+                    </a>
+                </li>
+            </ul>
+            <div class="post-card-byline-content">
+                <span><a href="/author/josh/">Josh Wickham</a></span>
+                <span class="post-card-byline-date"><time datetime="2021-12-04">Dec 4, 2021</time> <span class="bull">&bull;</span> 1 min read</span>
+            </div>
+        </footer>
+
+    </div>
+
+</article>
+                    
+<article class="post-card post ">
+
     <a class="post-card-image-link" href="/david-foster-carol-of-the-bells/">
         <img class="post-card-image"
             srcset="/content/images/size/w300/2021/12/David-Foster---Carol-of-the-Bells-Feature-img.jpg 300w,
@@ -101,94 +189,6 @@
             <div class="post-card-byline-content">
                 <span><a href="/author/josh/">Josh Wickham</a></span>
                 <span class="post-card-byline-date"><time datetime="2021-12-04">Dec 4, 2021</time> <span class="bull">&bull;</span> 1 min read</span>
-            </div>
-        </footer>
-
-    </div>
-
-</article>
-                    
-<article class="post-card post ">
-
-    <a class="post-card-image-link" href="/the-anatomy-of-a-light-display/">
-        <img class="post-card-image"
-            srcset="/content/images/size/w300/2021/09/LakelandHillsLights-1536x864.jpg 300w,
-                    /content/images/size/w600/2021/09/LakelandHillsLights-1536x864.jpg 600w,
-                    /content/images/size/w1000/2021/09/LakelandHillsLights-1536x864.jpg 1000w,
-                    /content/images/size/w2000/2021/09/LakelandHillsLights-1536x864.jpg 2000w"
-            sizes="(max-width: 1000px) 400px, 800px"
-            src="/content/images/size/w600/2021/09/LakelandHillsLights-1536x864.jpg"
-            alt="The Anatomy of a Light Display"
-            loading="lazy"
-        />
-    </a>
-
-    <div class="post-card-content">
-
-        <a class="post-card-content-link" href="/the-anatomy-of-a-light-display/">
-            <header class="post-card-header">
-                <h2 class="post-card-title">The Anatomy of a Light Display</h2>
-            </header>
-            <section class="post-card-excerpt">
-                <p>In which we uncover the major components working together to make blinky-flashy happen.</p>
-            </section>
-        </a>
-
-        <footer class="post-card-meta">
-            <ul class="author-list">
-                <li class="author-list-item">
-                    <a href="/author/josh/" class="static-avatar">
-                        <img class="author-profile-image" src="//www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x" alt="Josh Wickham" />
-                    </a>
-                </li>
-            </ul>
-            <div class="post-card-byline-content">
-                <span><a href="/author/josh/">Josh Wickham</a></span>
-                <span class="post-card-byline-date"><time datetime="2021-09-16">Sep 16, 2021</time> <span class="bull">&bull;</span> 5 min read</span>
-            </div>
-        </footer>
-
-    </div>
-
-</article>
-                    
-<article class="post-card post ">
-
-    <a class="post-card-image-link" href="/wiring-props-and-power-injection/">
-        <img class="post-card-image"
-            srcset="/content/images/size/w300/2021/09/IMG_6080.jpg 300w,
-                    /content/images/size/w600/2021/09/IMG_6080.jpg 600w,
-                    /content/images/size/w1000/2021/09/IMG_6080.jpg 1000w,
-                    /content/images/size/w2000/2021/09/IMG_6080.jpg 2000w"
-            sizes="(max-width: 1000px) 400px, 800px"
-            src="/content/images/size/w600/2021/09/IMG_6080.jpg"
-            alt="Controller Port Limitations"
-            loading="lazy"
-        />
-    </a>
-
-    <div class="post-card-content">
-
-        <a class="post-card-content-link" href="/wiring-props-and-power-injection/">
-            <header class="post-card-header">
-                <h2 class="post-card-title">Controller Port Limitations</h2>
-            </header>
-            <section class="post-card-excerpt">
-                <p>In which we discuss how many pixels a single controller port can actually drie.</p>
-            </section>
-        </a>
-
-        <footer class="post-card-meta">
-            <ul class="author-list">
-                <li class="author-list-item">
-                    <a href="/author/josh/" class="static-avatar">
-                        <img class="author-profile-image" src="//www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x" alt="Josh Wickham" />
-                    </a>
-                </li>
-            </ul>
-            <div class="post-card-byline-content">
-                <span><a href="/author/josh/">Josh Wickham</a></span>
-                <span class="post-card-byline-date"><time datetime="2021-09-12">Sep 12, 2021</time> <span class="bull">&bull;</span> 5 min read</span>
             </div>
         </footer>
 
