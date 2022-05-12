@@ -1,6 +1,6 @@
-# GlenmontLights.github.io
+WickedFoxLights.github.io
 
-This is the source for the website GlenmontLights.github.io. 
+This is the source for the website WickedFoxLights (originally GlenmontLights.github.io).
 
 # How to build
 
