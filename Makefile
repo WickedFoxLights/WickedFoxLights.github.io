@@ -1,3 +1,3 @@
 all:
-	gssg --url https://glenmontlights.github.io --domain http://ghost.unraid.sjhome.net --dest docs
+	gssg --url https://wickedfoxlights.github.io --domain http://ghost.wicked.fox --dest docs
 	cp docs/404/index.html docs/404.html
