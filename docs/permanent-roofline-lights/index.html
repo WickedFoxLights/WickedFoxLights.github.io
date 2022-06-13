@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Permanent Roofline Lights</title>
+    <link rel="stylesheet" href="/assets/built/screen.css?v=255348c063">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+
+    <meta name="description" content="In which we decide the best way to install permanent LEDs" />
+    <link rel="icon" href="https://wickedfoxlights.github.io/content/images/size/w256h256/2021/09/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://wickedfoxlights.github.io/permanent-roofline-lights/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="https://wickedfoxlights.github.io/permanent-roofline-lights/amp/" />
+    
+    <meta property="og:site_name" content="Wicked Fox Lights" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Permanent Roofline Lights" />
+    <meta property="og:description" content="In which we decide the best way to install permanent LEDs" />
+    <meta property="og:url" content="https://wickedfoxlights.github.io/permanent-roofline-lights/" />
+    <meta property="og:image" content="https://wickedfoxlights.github.io/content/images/2022/06/j-channel.jpg" />
+    <meta property="article:published_time" content="2022-05-14T05:46:58.000Z" />
+    <meta property="article:modified_time" content="2022-06-13T15:43:51.000Z" />
+    <meta property="article:tag" content="Hardware" />
+    <meta property="article:tag" content="Pixels" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Permanent Roofline Lights" />
+    <meta name="twitter:description" content="In which we decide the best way to install permanent LEDs" />
+    <meta name="twitter:url" content="https://wickedfoxlights.github.io/permanent-roofline-lights/" />
+    <meta name="twitter:image" content="https://wickedfoxlights.github.io/content/images/2022/06/j-channel.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Josh Wickham" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Hardware, Pixels" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="768" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Wicked Fox Lights",
+        "url": "https://wickedfoxlights.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://wickedfoxlights.github.io/content/images/2021/09/logo-1-1.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Josh Wickham",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s=250&r=x&d=mp",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://wickedfoxlights.github.io/author/josh/",
+        "sameAs": []
+    },
+    "headline": "Permanent Roofline Lights",
+    "url": "https://wickedfoxlights.github.io/permanent-roofline-lights/",
+    "datePublished": "2022-05-14T05:46:58.000Z",
+    "dateModified": "2022-06-13T15:43:51.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://wickedfoxlights.github.io/content/images/2022/06/j-channel.jpg",
+        "width": 1024,
+        "height": 768
+    },
+    "keywords": "Hardware, Pixels",
+    "description": "In which we decide the best way to install permanent LEDs",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://wickedfoxlights.github.io/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.2" />
+    <link rel="alternate" type="application/rss+xml" title="Wicked Fox Lights" href="https://wickedfoxlights.github.io/rss/" />
+    
+    <script defer src="/public/cards.min.js?v=255348c063"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=255348c063">
+    <script>document.documentElement.classList.add('dark-mode');</script><style>:root {--ghost-accent-color: #c0c0c0;}</style>
+</head>
+
+<body class="post-template tag-hardware tag-pixels">
+    <div class="site">
+        <header class="site-header">
+    <div class="navbar">
+        <div class="navbar-left">
+            <a class="logo" href="https://wickedfoxlights.github.io">
+        <img class="logo-image" src="https://wickedfoxlights.github.io/content/images/2021/09/logo-1-1.png" alt="Wicked Fox Lights">
+</a>        </div>
+            <nav class="main-menu hidden-xs hidden-sm hidden-md">
+                <ul class="nav-list u-plain-list">
+        <li
+            class="menu-item menu-item-home">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/">Home</a>
+        </li>
+        <li
+            class="menu-item menu-item-find-us">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/info/">Find Us</a>
+        </li>
+        <li
+            class="menu-item menu-item-youtube">
+            <a class="menu-item-link" href="https://www.youtube.com/channel/UC60U828VGzZGjfVdZiFAQxg">YouTube</a>
+        </li>
+        <li
+            class="menu-item menu-item-resources">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/resources/">Resources</a>
+        </li>
+        <li
+            class="menu-item menu-item-faq">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/faq/">FAQ</a>
+        </li>
+</ul>
+            </nav>
+        <div class="navbar-right">
+            <div class="social hidden-xs hidden-sm"></div>
+            <div class="burger hidden-lg hidden-xl">
+    <div class="burger-bar"></div>
+    <div class="burger-bar"></div>
+</div>        </div>
+    </div>
+</header>        <div class="site-content">
+            
+<div class="container">
+    <div class="row">
+        <div class="content-column col-lg-6">
+            <div class="content-area">
+                <main class="site-main">
+                        <article class="post tag-hardware tag-pixels single u-shadow">
+                            <header class="post-header">
+            <a class="post-tag" href="/tag/hardware/">Hardware</a>
+    <h1 class="post-title">
+            Permanent Roofline Lights
+    </h1>
+</header>                            <div class="post-meta">
+                                <time class="post-meta-date" datetime="2022-05-13">
+                                    May 13, 2022
+                                </time>
+                                <span class="post-meta-length">4 min read</span>
+                            </div>
+                                <figure class="post-media">
+        <div class="u-placeholder">
+            <a class="post-image-link" href="/permanent-roofline-lights/">
+                <img class="post-image lazyload"
+                    data-srcset="/content/images/size/w400/2022/06/j-channel.jpg 400w, /content/images/size/w750/2022/06/j-channel.jpg 750w, /content/images/size/w960/2022/06/j-channel.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Permanent Roofline Lights">
+            </a>
+        </div>
+
+                <figcaption>J-channel pixel installation (Image credit <a href="http://doityourselfchristmas.com/forums/showthread.php?44402-ws2811-mounting&amp;p=438020#post438020">uzelessknowledge at doityourselfchristmas</a>)</figcaption>
+    </figure>
+                            <div class="post-wrapper">
+                                <div class="post-content gh-content">
+                                    <p>Now that we're in a new house, redesigning basically the entire display is going to be necessary. It's a bit of a bummer that this has to be done so soon after designing the last display, but an evolving display was always in the cards, so that evolution is just going to be a bit more... aggressive this year!</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://wickedfoxlights.github.io/content/images/2022/05/evolution.jpg" class="kg-image" alt loading="lazy" width="600" height="452" srcset="https://wickedfoxlights.github.io/content/images/2022/05/evolution.jpg 600w"><figcaption>like this, only... less so. credit: <a href="http://ffden-2.phys.uaf.edu/webproj/212_spring_2017/Andrew_Adler/Physics_of_Pokemon/evolution.html">The Physics of Pokemon</a></figcaption></figure><p>However, first things first. We really enjoyed having the "permanent" lights up on the roofline for the previous several years, so we want to have that again. Perhaps something a bit more... polished? Something that looks a bit more like it's meant to be permanent? I <em>guess</em> there's nothing wrong with just draping 2" PVC pipe over the gutter, but we have EXPERIENCE now; we can do better than that! </p><p>I've been reading a bunch about various different methods of installing permanent lights on the roofline, so lots of different thoughts and approaches. However, three are really worth considering, in my opinion.</p><p>First, one clarification. I say "roofline", but I want something that looks a bit more polished and is generally kinda hidden and out of the way. At the last place, the white PVC blended well enough with the white gutters and trim, but you could still see all the pixels and, while it wasn't <em>bad</em>, we can do better.</p><p>Thus, the goal is to install the lights on the inside of the fascia with the lights facing downward, just peeking out past the fascia. Note that we don't have soffits, so the rear of the fascia is totally open. By installing this way, when the lights aren't on, they're almost invisible. This mounting also has a couple side benefits, the biggest one being that the lights are out of the elements; they won't be rained on, will be somewhat protected from the wind, and won't get direct sunlight.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://wickedfoxlights.github.io/content/images/2022/05/fascia-board-01.jpg" class="kg-image" alt loading="lazy" width="800" height="534" srcset="https://wickedfoxlights.github.io/content/images/size/w600/2022/05/fascia-board-01.jpg 600w, https://wickedfoxlights.github.io/content/images/2022/05/fascia-board-01.jpg 800w" sizes="(min-width: 720px) 720px"><figcaption>but flush with the bottom</figcaption></figure><p>So, let's talk about installation methods. As mentioned, there are four opions, and we'll go through them each.</p><p>First, there's LED strips with aluminum channels and diffusers. These generally look really good and polished since they are intended to be more visible. Also, due to the higher pixel density (sometimes much higher) animations and transitions look smoother, an effect which is enhanced by the diffuser. However, there are some things I don't like about them. First, power injection is a bit harder. It's not <em>hard</em>, but it requires soldering and stripping back some weatherproofing, then adding hot glue and heat shrink to make it weatherproof again. Second they're harder to repair; replacing a single pixel in a string is easy; in a strip, it's hard. Third, I haven't had much luck with the adhesive in them, so they could end up flopping around in the channel. Finally, not much room to run power injection wire in the channel to begin with.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://wickedfoxlights.github.io/content/images/2022/05/led-strip.webp" class="kg-image" alt loading="lazy" width="1413" height="667" srcset="https://wickedfoxlights.github.io/content/images/size/w600/2022/05/led-strip.webp 600w, https://wickedfoxlights.github.io/content/images/size/w1000/2022/05/led-strip.webp 1000w, https://wickedfoxlights.github.io/content/images/2022/05/led-strip.webp 1413w" sizes="(min-width: 720px) 720px"><figcaption>credit: <a href="https://www.derunledlights.com/complete-guide-permanent-install-led-strip-christmas-lights/">Derun LED Lights</a></figcaption></figure><p>Since strips themselves don't seem to be great, let's look at LED bullets. Using bullets (pixels, whatever) is familiar to me, and I know how to handle them, so that's a plus. Also... I have a <em>bunch</em>, so I don't have to buy more, which is a <em>huge</em> plus. Therefore, the next three options will use pixels.</p><p>Option 2 is using LED bullets with Permatrack. Permatrack is a purpose-built product for mounting these bullets to a house permanently. It seems to be simple to mount, has a channel for running wires, and - importantly - has predrilled holes for the pixels at a good spacing. They also look <em>fantastic</em>. This would provide less time from purchase to installation because I wouldn't have to build a jig and drill several hundred holes, and <em>could</em> be easier to install. However, this is the most expensive bullet mounting option, coming in around $4 per foot before tax or delivery, so let's keep looking.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://wickedfoxlights.github.io/content/images/2022/05/permatrack.jpg" class="kg-image" alt loading="lazy" width="1121" height="1500" srcset="https://wickedfoxlights.github.io/content/images/size/w600/2022/05/permatrack.jpg 600w, https://wickedfoxlights.github.io/content/images/size/w1000/2022/05/permatrack.jpg 1000w, https://wickedfoxlights.github.io/content/images/2022/05/permatrack.jpg 1121w" sizes="(min-width: 720px) 720px"><figcaption>credit: <a href="https://www.permatrack.us/shop/permatrack/">Permatrack</a></figcaption></figure><p>For the third option, we can use PVC pipe and clips for the same. PVC is cheap and I have a bunch of it from the display last year, along with <em>some</em> clips. I'd have to order more (or print some), but they're not break-the-bank expensive. The main complaint I have with this method is the wiring is all out and not protected since the hole and bullet goes all the way through the PVC pipe (we're talking like 3/4" pipe). Since these will be behind the fascia, it's not <em>horrible</em>, but it just feels a bit unfinished. Also, drilling a straight line in a PVC pipe without it  curving is... tough.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://wickedfoxlights.github.io/content/images/2022/05/pvc-pixels.jpg" class="kg-image" alt loading="lazy" width="800" height="370" srcset="https://wickedfoxlights.github.io/content/images/size/w600/2022/05/pvc-pixels.jpg 600w, https://wickedfoxlights.github.io/content/images/2022/05/pvc-pixels.jpg 800w" sizes="(min-width: 720px) 720px"><figcaption>credit: <a href="https://mcoffing.wixsite.com/notwlights/forum/building-the-displays/rgb-pixel-outlines">NOTW Lights</a></figcaption></figure><p>The option I'm looking to go with is using J-channel. This is usually used at the end of vinyl siding up against windows and doors. Generally, it's fairly decorative, so it will look a bit better. Also, the J-channel will give a kind of cable raceway to add a bit of protection and tidiness to the cable runs. Since the J-channel has slots for the screws to go in, it's easy to make mini adjustments to the fit and finish, even after a screw has been installed. And finally, the flat bottom of the channel is a bunch easier to get a consistent line out of. J-channel is about $2 per foot, delivered.</p><p>So, now that we have that settled, I just need to buy the J-track, spend an ungodly amount of time drilling (checks notes) <em>over 600 pixels,</em> do some wiring to allow for power injection and all that, install the lights into the J-channels, and then install the J-channels. EZPZ. That is a problem for future me!</p>
+                                </div>
+                                    <div class="post-tags">
+        <a class="tag tag-hardware" href="/tag/hardware/"
+                title="Hardware">Hardware</a><a class="tag tag-pixels" href="/tag/pixels/"
+                title="Pixels">Pixels</a>
+    </div>
+                                    <div class="share u-hover-wrapper">
+    <a class="share-item share-facebook u-hover-item"
+        href="https://www.facebook.com/sharer.php?u=https://wickedfoxlights.github.io/permanent-roofline-lights/"
+        target="_blank"><i class="icon icon-facebook"></i></a>
+    <a class="share-item share-twitter u-hover-item"
+        href="https://twitter.com/intent/tweet?url=https://wickedfoxlights.github.io/permanent-roofline-lights/&text=Permanent%20Roofline%20Lights"
+        target="_blank"><i class="icon icon-twitter"></i></a>
+    <a class="share-item share-pinterest u-hover-item"
+        href="https://pinterest.com/pin/create/button/?url=https://wickedfoxlights.github.io/permanent-roofline-lights/&media=&description=Permanent%20Roofline%20Lights"
+        target="_blank"><i class="icon icon-pinterest"></i></a>
+    <a class="share-item share-linkedin u-hover-item"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=https://wickedfoxlights.github.io/permanent-roofline-lights/&title=Permanent%20Roofline%20Lights"
+        target="_blank"><i class="icon icon-linkedin"></i></a>
+    <a class="share-item share-reddit u-hover-item"
+        href="https://reddit.com/submit?url=https://wickedfoxlights.github.io/permanent-roofline-lights/&title=Permanent%20Roofline%20Lights"
+        target="_blank"><i class="icon icon-reddit"></i></a>
+    <a class="share-item share-vk u-hover-item"
+        href="http://vk.com/share.php?url=https://wickedfoxlights.github.io/permanent-roofline-lights/&title=Permanent%20Roofline%20Lights"
+        target="_blank"><i class="icon icon-vk"></i></a>
+</div>                            </div>
+                        </article>
+                                <section class="author u-shadow">
+        <div class="author-image-placeholder u-placeholder">
+            <img class="author-image lazyload u-object-fit"
+                data-src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                alt="Josh Wickham">
+        </div>
+        <div class="author-wrapper">
+            <header class="author-header">
+                <div class="author-header-wrapper">
+                    <h4 class="author-name">Josh Wickham</h4>
+                    <div class="author-social">
+                        <a class="author-social-item author-more"
+                            href=/author/josh/>More posts</a>
+                    </div>
+                </div>
+            </header>
+            <div class="author-bio"></div>
+        </div>
+    </section>
+                        <div class="navigation">
+        <div class="navigation-item navigation-previous">
+                <img class="navigation-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2022/05/IMG_7086.jpg 400w, /content/images/size/w750/2022/05/IMG_7086.jpg 750w, /content/images/size/w960/2022/05/IMG_7086.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Introducing... Wicked Fox Lights!">
+            <span class="navigation-label">Previous Post</span>
+            <h4 class="navigation-title">Introducing... Wicked Fox Lights!</h4>
+            <a class="u-permalink" href=/glenmont-lights-has-moved/></a>
+        </div>
+
+</div>                                        </main>
+            </div>
+        </div>
+                    <div class="related-column col-lg-3 hidden-xs hidden-sm hidden-md">
+                        <section class="related-posts">
+                            <h3 class="related-title">
+                                <span class="text">You might also like...</span>
+                            </h3>
+                            <div class="post-feed">
+                                    <article
+    class="post tag-general tag-hardware tag-layout u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/the-anatomy-of-a-light-display/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/LakelandHillsLights-1536x864.jpg 400w, /content/images/size/w750/2021/09/LakelandHillsLights-1536x864.jpg 750w, /content/images/size/w960/2021/09/LakelandHillsLights-1536x864.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="The Anatomy of a Light Display">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/general/">General</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/the-anatomy-of-a-light-display/">The Anatomy of a Light Display</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which we uncover the major components working together to make blinky-flashy happen.
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/the-anatomy-of-a-light-display/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>                                    <article
+    class="post tag-pixels tag-hardware u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/wiring-props-and-power-injection/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/IMG_6080.jpg 400w, /content/images/size/w750/2021/09/IMG_6080.jpg 750w, /content/images/size/w960/2021/09/IMG_6080.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Controller Port Limitations">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/pixels/">Pixels</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/wiring-props-and-power-injection/">Controller Port Limitations</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which we discuss how many pixels a single controller port can actually drie.
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/wiring-props-and-power-injection/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>                                    <article
+    class="post tag-pixels tag-wiring u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/wiring-notes/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/IMG_6077.jpg 400w, /content/images/size/w750/2021/09/IMG_6077.jpg 750w, /content/images/size/w960/2021/09/IMG_6077.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Wiring Notes and Design Prep">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/pixels/">Pixels</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/wiring-notes/">Wiring Notes and Design Prep</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which I describe why writing down wiring details is helpful
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/wiring-notes/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>                            </div>
+                        </section>
+                    </div>
+            <div class="sidebar-column col-lg-3 hidden-xs hidden-sm hidden-md">
+                <aside class="widget-area">
+    <div class="widget widget-facebook widget-no-title u-shadow">
+    <div class="fb-page" data-href="__YOUR_FACEBOOK_PAGE_URL__"
+        data-small-header="false" data-hide-cover="false"
+        data-show-facepile="true" data-hide-cta="false" data-tabs="none">
+    </div>
+</div>    <div class="widget widget-tags u-shadow">
+    <h4 class="widget-title">Tags</h4>
+        <div class="tag-feed">
+                <div class="tag">
+                    <a class="tag-link" href="/tag/2021/">
+                        <span class="tag-name">2021</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/3d-model/">
+                        <span class="tag-name">3d Model</span>
+                        <span class="tag-count">2</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/christmas/">
+                        <span class="tag-name">Christmas</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/general/">
+                        <span class="tag-name">General</span>
+                        <span class="tag-count">4</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/hardware/">
+                        <span class="tag-name">Hardware</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/layout/">
+                        <span class="tag-name">Layout</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/light-show/">
+                        <span class="tag-name">Light-show</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/model/">
+                        <span class="tag-name">Model</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/pixels/">
+                        <span class="tag-name">Pixels</span>
+                        <span class="tag-count">4</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/sequencing/">
+                        <span class="tag-name">Sequencing</span>
+                        <span class="tag-count">2</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/sketchup/">
+                        <span class="tag-name">Sketchup</span>
+                        <span class="tag-count">1</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/wiring/">
+                        <span class="tag-name">Wiring</span>
+                        <span class="tag-count">1</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/xlights/">
+                        <span class="tag-name">xLights</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+        </div>
+</div>    <div class="widget widget-recent u-shadow">
+    <h4 class="widget-title">Recent Posts</h4>
+            <div class="recent-posts">
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/permanent-roofline-lights/">Permanent Roofline Lights</a>
+    </h5>
+        <time class="post-date" datetime="2022-05-13">
+    May 13, 2022
+</time></header>                    </article>
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/glenmont-lights-has-moved/">Introducing... Wicked Fox Lights!</a>
+    </h5>
+        <time class="post-date" datetime="2022-05-12">
+    May 12, 2022
+</time></header>                    </article>
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/john-williams-harry-potter-medley/">John Williams - Harry Potter Medley</a>
+    </h5>
+        <time class="post-date" datetime="2021-12-05">
+    Dec 5, 2021
+</time></header>                    </article>
+            </div>
+</div></aside>            </div>
+    </div>
+</div>
+        </div>
+        <footer class="site-footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="social">
+                <a class="social-item social-item-rss"
+                    href="https://feedly.com/i/subscription/feed/https://wickedfoxlights.github.io/rss/"
+                    target="_blank" rel="noopener noreferrer" aria-label="RSS">
+                    <i class="icon icon-rss"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                Powered by <a href="https://ghost.org/" target="_blank">Ghost</a>
+            </div>
+        </div>
+    </div>
+</footer>    </div>
+
+    <div class="dimmer"></div>
+<div class="off-canvas">
+    <div class="burger burger-close hidden-lg hidden-xl">
+    <div class="burger-bar"></div>
+    <div class="burger-bar"></div>
+</div>    <div class="mobile-menu">
+        <ul class="nav-list u-plain-list">
+        <li
+            class="menu-item menu-item-home">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/">Home</a>
+        </li>
+        <li
+            class="menu-item menu-item-find-us">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/info/">Find Us</a>
+        </li>
+        <li
+            class="menu-item menu-item-youtube">
+            <a class="menu-item-link" href="https://www.youtube.com/channel/UC60U828VGzZGjfVdZiFAQxg">YouTube</a>
+        </li>
+        <li
+            class="menu-item menu-item-resources">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/resources/">Resources</a>
+        </li>
+        <li
+            class="menu-item menu-item-faq">
+            <a class="menu-item-link" href="https://wickedfoxlights.github.io/faq/">FAQ</a>
+        </li>
+</ul>
+    </div>
+            <section class="related-posts">
+            <h3 class="related-title">
+                <span class="text">You might also like...</span>
+            </h3>
+            <div class="post-feed">
+                    <article
+    class="post tag-general tag-hardware tag-layout u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/the-anatomy-of-a-light-display/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/LakelandHillsLights-1536x864.jpg 400w, /content/images/size/w750/2021/09/LakelandHillsLights-1536x864.jpg 750w, /content/images/size/w960/2021/09/LakelandHillsLights-1536x864.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="The Anatomy of a Light Display">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/general/">General</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/the-anatomy-of-a-light-display/">The Anatomy of a Light Display</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which we uncover the major components working together to make blinky-flashy happen.
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/the-anatomy-of-a-light-display/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>                    <article
+    class="post tag-pixels tag-hardware u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/wiring-props-and-power-injection/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/IMG_6080.jpg 400w, /content/images/size/w750/2021/09/IMG_6080.jpg 750w, /content/images/size/w960/2021/09/IMG_6080.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Controller Port Limitations">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/pixels/">Pixels</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/wiring-props-and-power-injection/">Controller Port Limitations</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which we discuss how many pixels a single controller port can actually drie.
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/wiring-props-and-power-injection/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>                    <article
+    class="post tag-pixels tag-wiring u-shadow">
+        <figure class="post-media">
+        <div class="u-placeholder same-height rectangle">
+            <a class="post-image-link" href="/wiring-notes/">
+                <img class="post-image lazyload u-object-fit"
+                    data-srcset="/content/images/size/w400/2021/09/IMG_6077.jpg 400w, /content/images/size/w750/2021/09/IMG_6077.jpg 750w, /content/images/size/w960/2021/09/IMG_6077.jpg 960w"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-sizes="auto" alt="Wiring Notes and Design Prep">
+            </a>
+        </div>
+
+    </figure>
+    <div class="post-wrapper">
+        <header class="post-header">
+            <a class="post-tag" href="/tag/pixels/">Pixels</a>
+    <h2 class="post-title">
+            <a class="post-title-link" href="/wiring-notes/">Wiring Notes and Design Prep</a>
+    </h2>
+</header>            <div class="post-excerpt">
+                In which I describe why writing down wiring details is helpful
+            </div>
+    </div>
+    <footer class="post-footer">
+    <a class="post-link" href="/wiring-notes/">Read More</a>
+    <div class="post-author">
+                <a class="post-author-link" href="/author/josh/">
+                    <img class="post-author-image"
+                        src="https://www.gravatar.com/avatar/db92c19881c5d9c347dcb8867ff46ed0?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+                        alt="Josh Wickham">
+                </a>
+    </div>
+</footer></article>            </div>
+        </section>
+    <aside class="widget-area">
+    <div class="widget widget-facebook widget-no-title u-shadow">
+    <div class="fb-page" data-href="__YOUR_FACEBOOK_PAGE_URL__"
+        data-small-header="false" data-hide-cover="false"
+        data-show-facepile="true" data-hide-cta="false" data-tabs="none">
+    </div>
+</div>    <div class="widget widget-tags u-shadow">
+    <h4 class="widget-title">Tags</h4>
+        <div class="tag-feed">
+                <div class="tag">
+                    <a class="tag-link" href="/tag/2021/">
+                        <span class="tag-name">2021</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/3d-model/">
+                        <span class="tag-name">3d Model</span>
+                        <span class="tag-count">2</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/christmas/">
+                        <span class="tag-name">Christmas</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/general/">
+                        <span class="tag-name">General</span>
+                        <span class="tag-count">4</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/hardware/">
+                        <span class="tag-name">Hardware</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/layout/">
+                        <span class="tag-name">Layout</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/light-show/">
+                        <span class="tag-name">Light-show</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/model/">
+                        <span class="tag-name">Model</span>
+                        <span class="tag-count">3</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/pixels/">
+                        <span class="tag-name">Pixels</span>
+                        <span class="tag-count">4</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/sequencing/">
+                        <span class="tag-name">Sequencing</span>
+                        <span class="tag-count">2</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/sketchup/">
+                        <span class="tag-name">Sketchup</span>
+                        <span class="tag-count">1</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/wiring/">
+                        <span class="tag-name">Wiring</span>
+                        <span class="tag-count">1</span>
+                    </a>
+                </div>
+                <div class="tag">
+                    <a class="tag-link" href="/tag/xlights/">
+                        <span class="tag-name">xLights</span>
+                        <span class="tag-count">7</span>
+                    </a>
+                </div>
+        </div>
+</div>    <div class="widget widget-recent u-shadow">
+    <h4 class="widget-title">Recent Posts</h4>
+            <div class="recent-posts">
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/permanent-roofline-lights/">Permanent Roofline Lights</a>
+    </h5>
+        <time class="post-date" datetime="2022-05-13">
+    May 13, 2022
+</time></header>                    </article>
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/glenmont-lights-has-moved/">Introducing... Wicked Fox Lights!</a>
+    </h5>
+        <time class="post-date" datetime="2022-05-12">
+    May 12, 2022
+</time></header>                    </article>
+                    <article class="recent">
+                        <header class="post-header">
+    <h5 class="post-title">
+            <a class="post-title-link" href="/john-williams-harry-potter-medley/">John Williams - Harry Potter Medley</a>
+    </h5>
+        <time class="post-date" datetime="2021-12-05">
+    Dec 5, 2021
+</time></header>                    </article>
+            </div>
+</div></aside></div>    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
+        It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close"
+                    title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share"
+                    title="Share"></button>
+                <button class="pswp__button pswp__button--fs"
+                    title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom"
+                    title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left"
+                title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right"
+                title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+    <script src="/assets/built/main.min.js?v=255348c063"></script>
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    
+
+    
+</body>
+
+</html>
