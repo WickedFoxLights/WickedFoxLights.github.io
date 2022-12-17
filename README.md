@@ -12,7 +12,7 @@ Ghost ecosystem and, well, this is my website, that's really all that matters.
 
 * [NodeJS](https://nodejs.org/en/download/). I believe version 8 or higher; shouldn't be an issue.
 * [gssg](https://github.com/Fried-Chicken/ghost-static-site-generator). This generates a static site from a Ghost blog.
-* A Ghost installation running at the address ghost.unraid.sjhome.net. I expect this to be the case for approx 1 in 7 billion people.
+* A Ghost installation running at the address ghost.wicked.fox. I expect this to be the case for approx 1 in 7 billion people.
 
 ## Building
 
