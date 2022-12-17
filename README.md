@@ -22,7 +22,7 @@ The makefile is the easiest way to build the site. Just running `make` will gene
 ### gssg
 If you _really_ want to run `gssg` locally, use the following arguments
 * `--url <base url of production site>` (https://glenmontlights.github.io)
-* `--domain <domain of local Ghost installation` (http://ghost.unraid.sjhome.net)
+* `--domain <domain of local Ghost installation` (http://ghost.wicked.fox)
 * `--dest <subdir in repo where the static site should be generated>` (docs)
 
 You will also have to manually copy `docs/404/index.html` to `docs/404.html` to retain not found functionality
