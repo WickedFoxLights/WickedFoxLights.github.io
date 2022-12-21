@@ -79,7 +79,7 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 5.14" />
+    <meta name="generator" content="Ghost 5.26" />
     <link rel="alternate" type="application/rss+xml" title="Wicked Fox Lights" href="https://wickedfoxlights.github.io/rss/" />
 
     <style amp-custom>
@@ -255,6 +255,16 @@
 
     amp-img img {
         object-fit: cover;
+    }
+    
+    amp-youtube {
+        height: calc(100vw / 1.78);
+        width: 100vw;
+        position: relative;
+    }
+
+    amp-youtube img {
+        position: absolute;
     }
 
     .page-header {
@@ -1079,7 +1089,7 @@
             </figure>
             <section class="post-content">
 
-                <figure class="kg-card kg-embed-card"><amp-youtube width="200" height="113" data-videoid="BHJisCTeKu8" layout="fixed"></amp-youtube></figure>
+                <figure class="kg-card kg-embed-card"><amp-youtube width="600" height="350" data-videoid="BHJisCTeKu8" layout="responsive"></amp-youtube></figure>
 
             </section>
 
