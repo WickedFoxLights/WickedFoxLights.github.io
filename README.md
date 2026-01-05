@@ -11,7 +11,7 @@ Ghost ecosystem and, well, this is my website, that's really all that matters.
 ## Requirements
 
 * [NodeJS](https://nodejs.org/en/download/). I believe version 8 or higher; shouldn't be an issue.
-* [gssg](https://github.com/Fried-Chicken/ghost-static-site-generator). This generates a static site from a Ghost blog. You can install this via `npm install ghost-static-site-generator
+* [gssg](https://github.com/Fried-Chicken/ghost-static-site-generator). This generates a static site from a Ghost blog.
 * A Ghost installation running at the address ghost.wicked.fox. I expect this to be the case for approx 1 in 7 billion people.
 
 ## Building
@@ -21,7 +21,7 @@ The makefile is the easiest way to build the site. Just running `make` will gene
 
 ### gssg
 If you _really_ want to run `gssg` locally, use the following arguments
-* `--productionDomain <base url of production site>` (https://wickedfoxlights.github.io)
+* `--url <base url of production site>` (https://glenmontlights.github.io)
 * `--domain <domain of local Ghost installation` (http://ghost.wicked.fox)
 * `--dest <subdir in repo where the static site should be generated>` (docs)
 

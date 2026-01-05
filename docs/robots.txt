@@ -1,7 +1,6 @@
 User-agent: *
-Sitemap: http://ghost.wicked.fox/sitemap.xml
+Sitemap: https://wickedfoxlights.github.io/sitemap.xml
 Disallow: /ghost/
+Disallow: /p/
 Disallow: /email/
-Disallow: /members/api/comments/counts/
 Disallow: /r/
-Disallow: /webmentions/receive/
