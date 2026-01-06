@@ -1,0 +1,18 @@
+fail_fast: true
+repos:
+-   repo: local
+    hooks:
+    -   id: generate-lqip
+        name: Generate LQIP
+        entry: python3 tools/generate_lqip.py
+        language: system
+        files: ^assets/img/posts/
+        exclude: lqip.jpg
+        types: [image]
+        pass_filenames: true
+    -   id: test-posts
+        name: Test posts
+        entry: ./tools/test.sh
+        language: script
+        pass_filenames: false
+        always_run: true
