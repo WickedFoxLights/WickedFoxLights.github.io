@@ -1,11 +1,10 @@
 ---
-title: POST-TITLE
-date: POST-DATE
-# categories are Overview, Show, How-to
-category: Projects
+title: Anatomy of a Light Display
+date: 2021-09-16
+category: Overview
 tags:
-- cooking
-- food
+- software
+- hardware
 media_subpath: /assets/img/posts/POST-SLUG/
 image:
     path: preview.jpg

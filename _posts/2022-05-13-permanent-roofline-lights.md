@@ -1,11 +1,11 @@
 ---
-title: POST-TITLE
-date: POST-DATE
+title: Permanent Roofline Lights
+date: 2022-05-13
 # categories are Overview, Show, How-to
-category: Projects
+category: How-to
 tags:
-- cooking
-- food
+- hardware
+- props
 media_subpath: /assets/img/posts/POST-SLUG/
 image:
     path: preview.jpg

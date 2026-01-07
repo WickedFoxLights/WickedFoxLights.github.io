@@ -1,8 +1,9 @@
 ---
-title: Light Show Overview
+title: Christmas Show Overview - 2025 Edition
 date: 2025-12-22
-category: How-to
+category: Overview
 tags:
+- controller
 - hardware
 - software
 media_subpath: /assets/img/posts/light-show-overview/
