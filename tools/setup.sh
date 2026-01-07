@@ -19,7 +19,7 @@ main() {
   if ! test -d .ve ; then
     virtualenv -p python3 .ve
     . .ve/bin/activate
-    pip install -f requirements.txt
+    pip install -r requirements.txt
   else
     echo "already exists"
   fi

@@ -1,9 +1,10 @@
 ---
 title: Light Show Overview
 date: 2025-12-22
-category: Projects
+category: How-to
 tags:
-- lightshow
+- hardware
+- software
 media_subpath: /assets/img/posts/light-show-overview/
 image:
     path: preview.jpg
