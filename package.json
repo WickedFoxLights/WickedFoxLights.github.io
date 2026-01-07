@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "WickedFoxLights.github.io",
   "dependencies": {
-    "ghost-static-site-generator": "latest"
+    "ghost-static-site-generator": "1.1.4"
   },
   "main": "index.js",
   "directories": {
