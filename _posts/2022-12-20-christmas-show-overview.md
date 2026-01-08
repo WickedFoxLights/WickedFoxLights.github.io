@@ -53,7 +53,7 @@ These are customized to specific parts of my house, so they are optimized more f
 
 Many of these are made from PVC, which takes a lot of time since you have to drill the holes for the pixels yourself. I drilled 1,688 holes for my display this year, so I'm very familiar with how much time this takes. However, the plus side is building props from PVC - especially for the lines around your house - is that they are very easy to install due to using PVC clips which screw into your house, they store really easily if you have the room (above my garage door is where mine will go off season) and the pixels end up looking very lined up. Further, since PVC is somewhat flexible, you can follow some curves or make curved props like arches relatively easily.
 
-My eaves are built using vinyl J-channel and installed in such a way that they will be up year round. I wrote [this post]({% post_url 2022-05-13-permanent-roofline-lights %}) on the subject a while ago
+My eaves are built using vinyl J-channel and installed in such a way that they will be up year round. I wrote [this post]({% post_url 2026-01-07-permanent-roofline-lights %}) on the subject a while ago
 
 # Cabling
 
