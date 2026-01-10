@@ -19,7 +19,7 @@ When we got into the new house, redesigning basically the entire display was goi
 ![evolution](evolution.jpg){: lqip="evolution.lqip.jpg" }
 _like this, only... less so. credit: The Physics of Pokemon_
 
-# The Problem
+## The Problem
 
 However, when designing this we thought about what we liked. We really enjoyed having the "permanent" lights up on the roofline for the previous several years, so we want to have that again. Perhaps something a bit more... polished? Something that looks a bit more like it's meant to be permanent? I guess there's nothing wrong with just draping 2" PVC pipe over the gutter, but we have EXPERIENCE now; we can do better than that!
 
@@ -32,11 +32,11 @@ Thus, the goal was to install the lights on the inside of the fascia with the li
 ![fascia board](fascia-board-01.jpg){: lqip="fascia-board-01.lqip.jpg" }
 _Behind this, but flush with the bottom_
 
-# The Options
+## The Options
 
 So, let's talk about installation methods. As mentioned, there are four options, and we'll go through them each.
 
-## Option 1: LED Strips
+### Option 1: LED Strips
 
 First, there's LED strips with aluminum channels and diffusers. These generally look really good and polished since they are intended to be more visible. Also, due to the higher pixel density (sometimes much higher) animations and transitions look smoother, an effect which is enhanced by the diffuser. However, there are some things I don't like about them. First, power injection is a bit harder. It's not hard, but it requires soldering and stripping back some weatherproofing, then adding hot glue and heat shrink to make it weatherproof again. Second they're harder to repair; replacing a single pixel in a string is easy; in a strip, it's hard. Third, I haven't had much luck with the adhesive in them, so they could end up flopping around in the channel. Finally, not much room to run power injection wire in the channel to begin with.
 
@@ -45,24 +45,24 @@ _credit: Derun LED Lights_
 
 Since strips themselves don't seem to be great, let's look at LED bullets. Using bullets (pixels, whatever) is familiar to me, and I know how to handle them, so that's a plus. Also... I have a bunch, so I don't have to buy more, which is a huge plus. Therefore, the next three options will use pixels.
 
-## Option 2: LED Bullets with Permatrack
+### Option 2: LED Bullets with Permatrack
 
 ![permatrack](permatrack.jpg){: lqip="permatrack.lqip.jpg" }
 _credit: Permatrack_
 
 Option 2 is using LED bullets with Permatrack. Permatrack is a purpose-built product for mounting these bullets to a house permanently. It seems to be simple to mount, has a channel for running wires, and - importantly - has predrilled holes for the pixels at a good spacing. They also look fantastic. This would provide less time from purchase to installation because I wouldn't have to build a jig and drill several hundred holes, and could be easier to install. However, this is the most expensive bullet mounting option, coming in around $4 per foot before tax or delivery, so let's keep looking.
 
-## Option 3: LED Bullets with PVC Pipe
+### Option 3: LED Bullets with PVC Pipe
 
 ![PVC Pixels](pvc-pixels.jpg){: lqip="pvc-pixels.lqip.jpg" }
 
 For the third option, we can use PVC pipe and clips for the same. PVC is cheap and I have a bunch of it from the display last year, along with some clips. I'd have to order more (or print some), but they're not break-the-bank expensive. The main complaint I have with this method is the wiring is all out and not protected since the hole and bullet goes all the way through the PVC pipe (we're talking like 3/4" pipe). Since these will be behind the fascia, it's not horrible, but it just feels a bit unfinished. Also, drilling a straight line in a PVC pipe without it  curving is... tough.
 
-## Option 4: LED Bullets with J-Channel
+### Option 4: LED Bullets with J-Channel
 
 The option I ended up going with is using J-channel. This is usually used at the end of vinyl siding up against windows and doors. Generally, it's fairly decorative, so it will look a bit better. Also, the J-channel will give a kind of cable raceway to add a bit of protection and tidiness to the cable runs. Since the J-channel has slots for the screws to go in, it's easy to make mini adjustments to the fit and finish, even after a screw has been installed. And finally, the flat bottom of the channel is a bunch easier to get a consistent line out of. J-channel is about $2 per foot, delivered.
 
-# The Installation
+## The Installation
 
 Heh, I really wish I had taken pictures, but I _do_ have a whole YouTube video about the installation. Overall,
 it went pretty smoothly, though it was repetitive and kinda time-consuming. However, it was done once, and has
