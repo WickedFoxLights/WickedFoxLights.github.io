@@ -11,8 +11,6 @@ image:
     lqip: preview.lqip.jpg
 ---
 
-Instead of spreading the show over multiple posts, I'm going to try something new and put all of the videos in one post. Hopefully it makes for less clicking.
-
 Enjoy, and merry Christmas!
 
 # Tommee Profit - O Come O Come Emmanuel
