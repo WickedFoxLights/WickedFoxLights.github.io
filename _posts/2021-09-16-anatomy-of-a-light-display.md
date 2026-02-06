@@ -77,7 +77,7 @@ Of course, the last part of our lighting display is the most obvious one: the pi
 Like a musician, our lighting display is very complicated, but with a fairly reasonable number of understandable components. Hopefully this has been a helpful view into what goes into a light display and helps take some of the mystery and complexity away.
 
 
-[1]: {% post_url 2022-12-20-2022-christmas-show-overview %}
+[1]: {% post_url 2021-09-12-controller-port-limitations %}
 [2]: {{ '/tags/software' | relative_url }}
 [3]: https://www.falconchristmas.com/wiki/Falcon_FPP
 [4]: https://www.pixelcontroller.com/store/controllers/51-f4v2-pixel-controller.html

@@ -67,4 +67,4 @@ If I add a Star11 to House Stars, any effect I have on House Stars, Stars, or EV
 
 To summarize, combining models into groups can make your sequences far less complex, give you a quick route to an impressive display, and provide automatic updating capabilities. Thus, using groups is a very powerful tool and allows you to build more and more impressive sequences, removing much of the frustration you may experience using individual models.
 
-[1]: {% post_url 2021-01-22-starting-a-new-sequence %}
+[1]: {% post_url 2020-12-30-putting-up-the-lights %}

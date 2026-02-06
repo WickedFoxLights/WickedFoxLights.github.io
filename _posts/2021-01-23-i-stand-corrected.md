@@ -41,4 +41,4 @@ That's interesting, right? As you can see, each of the stars on the left bursts 
 So we come to the crux: I am going to go back and, in many cases, change my groups to hold only models. In the long run, it is going to be a bit more maintenance as I add new models, but hopefully that'll be only like once or twice a year. However, with things on which I intend to never use Per Model Default rendering (e.g. my EVERYTHING group), I'll just keep with the nested groups, because damn are they convenient!
 
 
-[1]: {% post_url 2022-12-20-2022-christmas-show-overview %}
+[1]: {% post_url 2021-01-02-model-grouping-basics %}

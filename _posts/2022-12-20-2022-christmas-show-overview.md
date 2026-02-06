@@ -69,7 +69,7 @@ The data cables I use are all assembled by the manufacturer and is ready to go w
 
 ![Power cables](power-cable.jpg){: lqip="power-cable.jpg" }
 
-The power cables I custom build from bulk 12ga or 14ga two-conductor wire and [Muyi connectors](https://www.amazon.com/dp/B01FP1HXHQ?psc=1&ref=ppx_yo2ov_dt_b_product_details). I built a bunch of 4' and 10' lengths to match the data cables I have, but power injection is different. Whereas data cables are a single line and each input has one output, power can branch off multiple times with no problems (technically this is what happens at each pixel too); therefore I have had to create a ton of tee junctions. These junctions have one input and two outputs so I can have a line which branches at each of several props, one tee at each prop. I've built a bunch of standalone tees for generic use, but also have built some whole cable assemblies with multiple soldered tees for specifically placed props. I built all of those at my old house (believe it or not, it was faster to build these assemblies than the individual tees) so the spacing no longer makes sense for my current display.
+The power cables I custom build from bulk 12ga or 14ga two-conductor wire and [Muyi connectors][1]. I built a bunch of 4' and 10' lengths to match the data cables I have, but power injection is different. Whereas data cables are a single line and each input has one output, power can branch off multiple times with no problems (technically this is what happens at each pixel too); therefore I have had to create a ton of tee junctions. These junctions have one input and two outputs so I can have a line which branches at each of several props, one tee at each prop. I've built a bunch of standalone tees for generic use, but also have built some whole cable assemblies with multiple soldered tees for specifically placed props. I built all of those at my old house (believe it or not, it was faster to build these assemblies than the individual tees) so the spacing no longer makes sense for my current display.
 
 I mentioned earlier I built a bunch of 4' or 10' lengths, but I also have several much longer cables (30' or more) using 12ga for less voltage drop. These are handy because you can have half as many pixels on a power port as on a data port, so you end up running twice as much power cable and it's easier to build one long cable which reaches way over there than several shorter modular cables. A good mix of each is a good idea too.
 
@@ -79,7 +79,7 @@ I mentioned earlier I built a bunch of 4' or 10' lengths, but I also have severa
 
 I use exclusively 5V RGB pixels, though I may use 12V if I build some really high density props since 12V requires less power injection. Generally, I build props with the pixels and leave them in until I decide to completely scrap the prop, so even though I have fewer pixels this year, I purchased about 1000 more pixels for building props this year. I've bought from Ali Express and the Alitove brand from Amazon and there doesn't seem to be a major difference in quality. On the other hand, there is a difference in color, both of the wire and of the pixels themselves, so if you buy from multiple sources, you should be careful about mixing and matching.
 
-For building props and getting the pigtail ends onto the props, I use [solder seal](https://www.amazon.com/dp/B07MLN4P5F?ref=ghost.wicked.fox_) connectors. I cannot sing their praises enough. They're easy to install and provide a reasonably durable connection, doing both weather sealing and soldering of the wires together. I probably shouldn't, but I regularly shove a 14ga and 22ga wire into each end of the blue connectors and they seem to hold up well.
+For building props and getting the pigtail ends onto the props, I use [solder seal][2] connectors. I cannot sing their praises enough. They're easy to install and provide a reasonably durable connection, doing both weather sealing and soldering of the wires together. I probably shouldn't, but I regularly shove a 14ga and 22ga wire into each end of the blue connectors and they seem to hold up well.
 
 # Power
 
@@ -113,7 +113,7 @@ Smart Receivers are essentially remotely controlled followers to extend the numb
 
 ## Sequencing
 
-All of my sequencing is done within [xLights](https://www.xlights.org/?ref=ghost.wicked.fox), which is a fantastic piece of software for designing shows. For the most part, I purchase sequences from various different websites, including [rgbsequences.net](https://rgbsequences.net), [showstoppersequences.com](https://showstoppersequences.com/?ref=ghost.wicked.fox), and [magicallightshows.com](https://wickedfoxlights.github.io/christmas-show-overview-2022-edition/magicallightshows.com/). I also browse through the free sequences from [xlightsseq.com](https://wickedfoxlights.github.io/christmas-show-overview-2022-edition/xlightsseq.com) and a dedicated [Google drive for xLights sequence sharing](https://drive.google.com/drive/folders/0B6gSkzp9OlvuV3FmaEtBY19HMUU?resourcekey=0-so_9NkUjukTnvoNuqEV5Wg&ref=ghost.wicked.fox). I also use xLights to define the various models which drive the props on the house, assign the models to ports, etc.
+All of my sequencing is done within [xLights][3], which is a fantastic piece of software for designing shows. For the most part, I purchase sequences from various different websites, including [rgbsequences.net][4], [showstoppersequences.com][5], and [magicallightshows.com][6]. I also browse through the free sequences from [xlightsseq.com][7] and a dedicated [Google drive for xLights sequence sharing][8]. I also use xLights to define the various models which drive the props on the house, assign the models to ports, etc.
 
 # Miscellaneous
 
@@ -131,10 +131,20 @@ I am using the large boxes you'll typically see around irrigation to hold the va
 
 ## Outdoor Smart Switch
 
-I'm using a [Kasa Outdoor Smart Plug with two sockets](https://smile.amazon.com/dp/B091FXH2FR?ref=ghost.wicked.fox) which I have connected to Home Assistant; using the automations, I turn the power to the pixels and controllers on at sundown each night, and leave the Falcon Player on perpetually.
+I'm using a [Kasa Outdoor Smart Plug with two sockets][9] which I have connected to Home Assistant; using the automations, I turn the power to the pixels and controllers on at sundown each night, and leave the Falcon Player on perpetually.
 
 # Wrap Up
 
 Overall, there are a lot of moving components to my system, but it looks more complex than it actually is. For the most part, each port is duplicating the others; the props and models may be shaped differently and have different numbers of pixels, but the concept and how they get connected are all identical. As the show grows, it will necessarily butt up against limits which will require more complex expansions, but again, the concepts and execution will be carbon copies of what already exists.
 
 From here, I'd like to start a series wherein I get more detailed about each of the props and equipment I built to highlight some of the limitations and decisions which were made along the way. Eventually, this will culminate in a full wiring diagram for the show. For the meantime, thank you for reading this far!
+
+[1]: https://www.amazon.com/dp/B01FP1HXHQ?psc=1&ref=ppx_yo2ov_dt_b_product_details
+[2]: https://www.amazon.com/dp/B07MLN4P5F
+[3]: https://www.xlights.org/
+[4]: https://rgbsequences.net
+[5]: https://showstoppersequences.com/
+[6]: https://magicallightshows.com/
+[7]: https://xlightsseq.com
+[8]: https://drive.google.com/drive/folders/0B6gSkzp9OlvuV3FmaEtBY19HMUU?resourcekey=0-so_9NkUjukTnvoNuqEV5Wg
+[9]: https://smile.amazon.com/dp/B091FXH2FR

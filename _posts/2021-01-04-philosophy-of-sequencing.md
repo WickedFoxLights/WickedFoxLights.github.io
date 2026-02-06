@@ -38,4 +38,4 @@ At the end of the day, if you get 100 people looking at your light show, a very 
 
 They want the same as you: the blinky flashy.
 
-[1]: {% post_url 2021-01-22-starting-a-new-sequence %}
+[1]: {% post_url 2021-01-02-model-grouping-basics %}

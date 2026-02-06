@@ -54,5 +54,5 @@ Awesome, now we have a blank slate!
 Coming up in the next few posts, we'll get into managing the models which we are going to control in the sequencing pane, set up timing tracks to better syncronize and lay out our effects, then start putting down some effects. Exciting stuff!
 
 
-[1]: {% post_url 2022-12-20-2022-christmas-show-overview %}
+[1]: {% post_url 2021-01-04-philosophy-of-sequencing %}
 [2]: https://www.youtube.com/watch?v=mW1dbiD_zDk

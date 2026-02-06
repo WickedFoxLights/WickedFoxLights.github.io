@@ -60,6 +60,6 @@ Second credible option I've heard: group buys. If you are getting into the hobby
 Any rate, that's the cut and dry of how I got my pixels. Next time, I'll go into pixel voltage and how to decide what strands will work for you.
 
 
-[1]: {% post_url 2021-01-22-starting-a-new-sequence %}
+[1]: {% post_url 2020-12-30-putting-up-the-lights %}
 [2]: https://auschristmaslighting.com
 [3]: https://www.aliexpress.com/store/701799?spm=a2g0o.productlist.0.0.593e4c15fD6DfX
