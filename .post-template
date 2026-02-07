@@ -1,0 +1,13 @@
+---
+title: POST-TITLE
+date: POST-DATE
+# categories are Overview, Show, How-to
+category: Projects
+tags:
+- cooking
+- food
+media_subpath: /assets/img/posts/POST-SLUG/
+image:
+    path: preview.jpg
+    lqip: preview.lqip.jpg
+---
